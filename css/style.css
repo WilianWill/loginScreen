@@ -11,13 +11,13 @@ body {
 }
 
 #container {
-    margin: 50% auto;
+    position:relative;
+    margin:50%  auto;
     background: rgba(255, 255, 255, 0.925);
     display: flex;
     width: 300px;
     height: 400px;
-    border-radius: 5px;
-    box-shadow: 4px 4px rgb(102, 24, 180);
+    border-radius: 0px 40px 40px;
 }
 
 #form_login {
@@ -103,7 +103,7 @@ body {
     border: none;
     box-shadow: 1px 1px lightblue;
     font-size: 18px;
-    margin: auto;
+    margin-left: 10px;
 }
 
 #send:hover {
@@ -111,6 +111,43 @@ body {
     transform: scale(0.9);
 }
 
+/*TOOGLE BUTON*/
 
-/* DARK MODE*/
+ .toogle {
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    align-items: center;
+    transform: scale(1.1);
+}
+.toogleBall {
+    position: absolute;
+    background: gainsboro;
+    width: 24px;
+    height: 24px;
+    left: 0.1px;
+    border-radius: 50%;
+}
+.toogleActive {
+    background: rgb(214, 214, 11);
+    transform: translateX(25.5px);
+    transition: 0.4s linear;
+}
 
+.toogleOff {
+    background:gainsboro;
+    transform: translateX(-0.1px);
+    left: 0;
+    transform: 0.4s linear;
+}
+
+
+.inputPass {
+    background-color: red;
+}
