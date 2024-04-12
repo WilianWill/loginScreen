@@ -123,8 +123,6 @@ body {
     width: 50px;
     height: 25px;
     border-radius: 20px;
-    align-items: center;
-    transform: scale(1.1);
 }
 .toogleBall {
     position: absolute;
@@ -139,14 +137,6 @@ body {
     transform: translateX(25.5px);
     transition: 0.4s linear;
 }
-
-.toogleOff {
-    background:gainsboro;
-    transform: translateX(-0.1px);
-    left: 0;
-    transform: 0.4s linear;
-}
-
 
 .inputPass {
     background-color: red;

@@ -8,9 +8,6 @@ function oneClick() {
     cont.classList.add("containerDark");
 }
 
-function againClick() {
-    toogleball.classList.add("toogleOff")  
-}
 
 //variaveis //
 let loginBtn=document.getElementById("send");
