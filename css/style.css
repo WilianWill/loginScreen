@@ -112,30 +112,18 @@ body {
 }
 
 /*TOOGLE BUTON*/
-
- .toogle {
-    position:relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background: black;
-    color: white;
-    width: 50px;
-    height: 25px;
+.tooglediv {
+    background: rgb(39, 38, 38);
+    width: 60px;
     border-radius: 20px;
 }
-.toogleBall {
-    position: absolute;
-    background: gainsboro;
-    width: 24px;
-    height: 24px;
-    left: 0.1px;
+
+.toogleball {
+    background: white;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-}
-.toogleActive {
-    background: rgb(214, 214, 11);
-    transform: translateX(25.5px);
-    transition: 0.4s linear;
+    padding: 2px;
 }
 
 .inputPass {

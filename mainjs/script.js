@@ -1,13 +1,3 @@
-//toogle//
-let toogleball = document.getElementById("toogleBall");
-let cont =document.getElementById("container")
-
-function oneClick() {
-    ;
-    toogleball.classList.add("toogleActive");
-    cont.classList.add("containerDark");
-}
-
 
 //variaveis //
 let loginBtn=document.getElementById("send");
@@ -26,7 +16,7 @@ loginBtn.addEventListener("click",(e) => {
         alert("Complete todos os campos");
     } else {
         if (user == "TesteUser" && passWord == "TestePass") {
-            window.location.href="../concluido.html";
+            window.location.href="https://youtu.be/dQw4w9WgXcQ?si=m-8lcEsoQDV_ROD7";
                 alert("Passou");
                 
         } else {
